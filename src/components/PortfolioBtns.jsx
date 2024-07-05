@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Suits from './Suits';
 import Boots from './Boots';
 import Jackets from './Jackets';
@@ -42,7 +42,7 @@ const PortfolioBtns = () => {
     <>
     <div className='w-[95%] m-auto flex flex-col gap-10 items-center'>
 
-      <div className="mt-14 flex w-[100%] m-auto gap-3 items-center justify-center py-4 rounded-xl bg-gradient-to-r from-[#00627a77] via-[#0096bb75] to-[#00627a70]">
+      <div className={`mt-14 flex w-[100%] m-auto gap-3 items-center justify-center py-4 rounded-xl bg-gradient-to-r from-[#00627a77] via-[#0096bb75] to-[#00627a70]`}>
         <h1 onClick={handleSuits} className={`transition-all duration-300 px-1 py-1 rounded-md font-semibold ${suits ? 'text-red bg-white' : 'text-white'}`}>Suits</h1>
         <h1 onClick={handleJackets} className={`transition-all duration-300 px-1 py-1 rounded-md font-semibold ${jackets ? 'text-black bg-white' : 'text-white'}`}>Jackets</h1>
         <h1 onClick={handleBoots} className={`transition-all duration-300 px-1 py-1 rounded-md font-semibold ${boots ? 'text-black bg-white' : 'text-white'}`}>Boots</h1>
