@@ -4,6 +4,8 @@ import MainCont from './components/MainCont';
 import Vertical from './components/Vertical';
 import Clients from './components/Clients';
 import PortfolioBtns from './components/PortfolioBtns';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +17,9 @@ const App = () => {
         <Clients />
         <Vertical />
         <PortfolioBtns />
+        <Vertical />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const MainCont = () => {
+  
   return (
     <>
       <div className="mt-28 w-[95%] m-auto h-auto p-3 flex items-center flex-col gap-4">
@@ -9,7 +10,7 @@ const MainCont = () => {
             <img src="/main1.png" className='rounded-2xl border-t-2 border-[#0096bb]' alt="" />
         </div>
         <div className="btn mt-6 text-white">
-            <button className='bg-gradient-to-br from-[#00617a] via-[#0096bb] to-[#00617a] px-12 py-3 text-white text-lg font-semibold rounded-lg'>View Categories</button>
+            <button onClick={handleScroll} className='bg-gradient-to-br from-[#00617a] via-[#0096bb] to-[#00617a] px-12 py-3 text-white text-lg font-semibold rounded-lg'>View Categories</button>
         </div>
       </div>
     </>
