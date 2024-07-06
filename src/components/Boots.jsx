@@ -7,7 +7,7 @@ const Boots = () => {
         <Card imgSrc={'/bot1.jpg'} price={'170'} />
         <Card imgSrc={'/bot2.jpg'} price={'170'} />
         <Card imgSrc={'/bot3.jpg'} price={'170'} />
-        <Card imgSrc={'/bot1.jpg'} price={'170'} />
+        <Card imgSrc={'/bot4.jpg'} price={'170'} />
     </div>
   )
 }
