@@ -10,7 +10,7 @@ const MainCont = () => {
             <img src="/main1.png" className='rounded-2xl border-t-2 border-[#0096bb]' alt="" />
         </div>
         <div className="btn mt-6 text-white">
-            <button onClick={handleScroll} className='bg-gradient-to-br from-[#00617a] via-[#0096bb] to-[#00617a] px-12 py-3 text-white text-lg font-semibold rounded-lg'>View Categories</button>
+            <button className='bg-gradient-to-br from-[#00617a] via-[#0096bb] to-[#00617a] px-12 py-3 text-white text-lg font-semibold rounded-lg'>View Categories</button>
         </div>
       </div>
     </>
